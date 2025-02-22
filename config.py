@@ -12,9 +12,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "20817057"))
 API_HASH = getenv("API_HASH", "e2530f82f8168f7f4e7b6f68d2e44dc3")
 
-EVAL = list(map(int, getenv("EVAL", "7716352578 7091230649").split()))
+EVAL = list(map(int, getenv("EVAL", "5094606253").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7550267981:AAHNDrr-FFxYttK8P2PLItXoz490p4Yc-wk")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","AI_LELOUCH")
 # --------------------------------------------------------
